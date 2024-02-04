@@ -165,7 +165,7 @@ class DigiKeyboardDevice : public Print {
   
 
   //sendKeyStroke: sends a key press with an optional key down time and modifiers
-  void sendKeyStroke(byte keyStroke, byte modifiers = 0, uint16_t key_down_time = 0) {
+  void sendKeyStroke(byte keyStroke, byte modifiers = 0, uint16_t key_down_time = 0) {   //sendKeyStroke  bu kısımda düzeltme yapıldı. 
     while (!usbInterruptIsReady()) {
       usbPoll();
       _delay_ms(5);
