@@ -1,5 +1,5 @@
 /*
- * Based on Obdev's AVRUSB code and under the same license.
+satır 168 de ğişiklik yapıldı. hold key özelliği eklendi.  daha verimli çalışıyor. 
  *
  * TODO: Make a proper file header. :-)
  * Modified for Digispark by Digistump
